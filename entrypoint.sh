@@ -1,5 +1,5 @@
 #!/bin/sh
 
-echo "Hello $INPUT-MYINPUT"
+echo "Hello $INPUT_MYINPUT"
 memory=$(cat /proc/meminfo)
-ech "::set-output name=memory::$memory"
+echo "::set-output name=memory::$memory"
